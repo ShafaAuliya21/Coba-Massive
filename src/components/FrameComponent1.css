@@ -1,0 +1,194 @@
+.frame-child11,
+.produk {
+  position: relative;
+  max-width: 100%;
+}
+.frame-child11 {
+  width: 100%;
+  height: 791px;
+  background: linear-gradient(146.18deg, #f6fcff 55.32%, #fff);
+  display: none;
+}
+.produk {
+  margin: 0;
+  width: 664px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.produk-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.lihat-semua {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 112px;
+  height: 27px;
+  min-width: 112px;
+  z-index: 1;
+}
+.see-all-button-child {
+  position: absolute;
+  top: 27px;
+  left: 0;
+  background-color: var(--foundation-blue-normal);
+  border-top: 1px solid var(--info-info700);
+  box-sizing: border-box;
+  width: 119px;
+  height: 1px;
+  z-index: 1;
+}
+.see-all-button {
+  width: 118px;
+  height: 28px;
+  position: relative;
+  text-align: right;
+  font-size: var(--body-17-rg-size);
+}
+.see-all-link {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+  max-width: 100%;
+}
+.see-all-container {
+  width: 981px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-mid);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-card,
+.product-title {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-card {
+  width: 1264px;
+  overflow-x: auto;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-21xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--body-17-rg-size);
+  color: var(--dark-dark-900);
+}
+.product-title {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-14xl);
+}
+.navigation-dots-child {
+  height: 15px;
+  width: 36px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--foundation-blue-normal);
+  border: 1px solid var(--foundation-blue-normal);
+  box-sizing: border-box;
+}
+.navigation-dots-child1,
+.navigation-dots-inner,
+.navigation-dots-item {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  border-radius: 50%;
+  border: 0 solid var(--foundation-blue-normal);
+  box-sizing: border-box;
+}
+.navigation-dots {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  z-index: 1;
+}
+.card-navigation,
+.group-div,
+.landing-page-inner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.card-navigation {
+  width: 1264px;
+  flex-direction: row;
+  justify-content: center;
+}
+.group-div,
+.landing-page-inner {
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.group-div {
+  flex: 1;
+  background: linear-gradient(146.18deg, #f6fcff 55.32%, #fff);
+  flex-direction: column;
+  padding: var(--padding-39xl) var(--padding-59xl) var(--padding-61xl);
+  gap: var(--gap-34xl);
+}
+.landing-page-inner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-28xl);
+  text-align: center;
+  font-size: var(--heading2-bold-size);
+  color: var(--foundation-blue-normal);
+  font-family: var(--body-14-md);
+}
+@media screen and (max-width: 1125px) {
+  .landing-page-inner {
+    padding-bottom: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .produk {
+    font-size: var(--font-size-10xl);
+  }
+  .frame-card {
+    gap: var(--gap-xl);
+  }
+  .product-title {
+    gap: var(--gap-base);
+  }
+  .group-div {
+    gap: var(--gap-7xl);
+    padding: var(--padding-19xl) var(--padding-20xl) var(--padding-33xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .produk {
+    font-size: var(--font-size-3xl);
+  }
+  .group-div {
+    padding-top: var(--padding-6xl);
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+  .landing-page-inner {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

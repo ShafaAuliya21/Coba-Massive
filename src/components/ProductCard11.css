@@ -1,0 +1,196 @@
+.frame-child14 {
+  height: 211.1px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-mini);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.hand-thumbs-up-icon2 {
+  height: 25px;
+  width: 30px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.duotone-button2 {
+  height: 57px;
+  width: 55px;
+  margin: 0 !important;
+  position: absolute;
+  top: -11.8px;
+  right: -14px;
+  border-radius: var(--br-9980xl);
+  background-color: var(--blue-blue-50);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.rectangle-parent4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.product-name2,
+.rectangle-parent4 {
+  align-self: stretch;
+  position: relative;
+}
+.star-icon2 {
+  height: 17px;
+  width: 79px;
+  position: relative;
+}
+.km2 {
+  position: relative;
+  line-height: 120%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 29px;
+}
+.discount2,
+.star-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.discount2 {
+  border-radius: var(--br-11xs);
+  background-color: var(--blue-blue-50);
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-8xs);
+  white-space: nowrap;
+}
+.star-group {
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-xs);
+  color: var(--blue-blue-900);
+}
+.product-card-inner1,
+.product-name-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.product-name-group {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.product-card-inner1 {
+  width: 232px;
+  flex-direction: row;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.main-price2 {
+  position: relative;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.pricing-frame,
+.pricing2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pricing-frame {
+  padding: 0 var(--padding-11xs);
+}
+.primary-button15 {
+  position: relative;
+  font-size: var(--heading-02-size);
+  font-weight: 700;
+  font-family: var(--body-14-md);
+  color: var(--foundation-yellow-normal);
+  text-align: left;
+  display: inline-block;
+  min-width: 45px;
+}
+.primary-button14 {
+  cursor: pointer;
+  border: 1px solid var(--foundation-yellow-darker);
+  padding: var(--padding-5xs) var(--padding-39xl);
+  background-color: var(--foundation-primary-normal);
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.primary-button14:hover {
+  background-color: var(--color-gainsboro-100);
+  border: 1px solid var(--color-saddlebrown-100);
+  box-sizing: border-box;
+}
+.iconheart2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.primary-button16 {
+  border-radius: var(--br-3xs);
+  background-color: var(--foundation-yellow-normal);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.primary-button-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.frame-parent24 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-mid);
+}
+.frame-parent24,
+.product-card-inner2,
+.product-card2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.product-card-inner2 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-mini) 0 var(--padding-6xs);
+  font-size: var(--heading3-bold-size);
+}
+.product-card2 {
+  width: 286px;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-primary);
+  border: 1px solid var(--dark-dark-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-4xl) var(--padding-lgi) var(--padding-smi);
+  gap: var(--gap-3xl-6);
+  text-align: left;
+  font-size: var(--body-17-rg-size);
+  color: var(--dark-dark-900);
+  font-family: var(--body-14-md);
+}
+@media screen and (max-width: 450px) {
+  .main-price2 {
+    font-size: var(--font-size-2xl);
+  }
+}
